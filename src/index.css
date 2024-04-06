@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Workbench&display=swap');
+
+body {
+  margin: 0;
+  background-color: #333334;
+  overflow-x: hidden;
+}

@@ -1,0 +1,28 @@
+.item {
+    background-color: #333334;
+    border: rgb(39, 38, 38) solid 1.2px;
+    padding: 5px 15px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+}
+
+.button-container button {
+    border: none;
+    cursor: pointer;
+    background-color: #DDE6ED;
+    border-radius: 8px;
+}
+
+.button-container button:hover {
+    filter: brightness(1.2);
+}
