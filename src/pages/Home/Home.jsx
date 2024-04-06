@@ -76,7 +76,7 @@ const Home = () => {
 
                     <Card>
                         <div className='img-container'>
-                            <img src='/sunset.png' className='image'/>
+                            <img src='/sunset.png' className='image'/>      {/* src automatically goes to public folder in production */}
                         </div>
                     </Card>                   
                 </div>
