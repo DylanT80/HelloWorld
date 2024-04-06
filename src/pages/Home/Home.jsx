@@ -76,7 +76,7 @@ const Home = () => {
 
                     <Card>
                         <div className='img-container'>
-                            <img src='../../../public/sunset.png' className='image'/>
+                            <img src='/sunset.png' className='image'/>
                         </div>
                     </Card>                   
                 </div>

@@ -4,7 +4,7 @@ import { HomeLayout } from '../layout';
 
 const Router = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/HelloWorld'>
             <Routes>
                 <Route path='/' element={<HomeLayout />}>
                     <Route path='/' element={<Home />} />
