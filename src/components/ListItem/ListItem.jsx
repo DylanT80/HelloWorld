@@ -6,7 +6,7 @@ const ListItem = ({children, index, handleUp, handleDown, link}) => {
     return (
         <div className='item'>
             <div style={{padding: "10px", color: "#F7F7F7F7"}}>
-                <a href={link ? link : null}>{children}</a>
+                <a target='_blank' href={link ? link : null}>{children}</a>
             </div>
             
             <div className='button-container'>
