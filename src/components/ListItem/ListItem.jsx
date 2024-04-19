@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types';
 import './styles.css'
 
-const ListItem = ({children, index, handleUp, handleDown}) => {
+const ListItem = ({children, index, handleUp, handleDown, link}) => {
+    // const content = link ? <a>{children}</a> : {children};
     return (
         <div className='item'>
-            <div style={{padding: "10px"}}>
-                {children}
+            <div style={{padding: "10px", color: "#F7F7F7F7"}}>
+                <a href={link ? link : null}>{children}</a>
             </div>
             
             <div className='button-container'>
@@ -22,5 +23,6 @@ ListItem.propTypes = {
     children: PropTypes.node,
     index: PropTypes.number,
     handleUp: PropTypes.func,
-    handleDown: PropTypes.func
+    handleDown: PropTypes.func,
+    link: PropTypes.bool
 };

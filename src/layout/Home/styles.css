@@ -11,9 +11,13 @@
     border-radius: 0px 0px 25px 25px;
     background-color: #2a2a2d;
     font-family: "Arimo";
+    column-gap: 2em;
 }
 
 .link {
     color: #F7F7F7F7;
     text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333334;
+    border-radius: 35px;
 }

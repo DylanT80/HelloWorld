@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from '../pages';
+import { Home, TtR } from '../pages';
 import { HomeLayout } from '../layout';
 
 const Router = () => {
@@ -8,6 +8,7 @@ const Router = () => {
             <Routes>
                 <Route path='/' element={<HomeLayout />}>
                     <Route path='/' element={<Home />} />
+                    <Route path="/things-to-read" element={<TtR />} />
                 </Route>
             </Routes>
         </BrowserRouter>
