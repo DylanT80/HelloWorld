@@ -86,7 +86,7 @@ const TtR = () => {
         <div className="ttr-main-container">
             <div className='ttr-list-container'>
                 <Card>
-                    <h1 style={{textAlign: "center"}}>Things to Read</h1>
+                    <h1 style={{textAlign: "center", paddingLeft: "1.5em", paddingRight: "1.5em"}}>Things to Read</h1>
                     {items.map((item, i) => <ListItem index={i} key={item.id} handleUp={handleUp} handleDown={handleDown} link={item.link}>{item.text}</ListItem>)}
                 </Card>
             </div>

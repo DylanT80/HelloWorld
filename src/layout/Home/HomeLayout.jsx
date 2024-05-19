@@ -9,6 +9,7 @@ const HomeLayout = () => {
                 <div className='layout-container'>
                     <NavLink className={'link'} to={'/'}>Home</NavLink>
                     <NavLink className={'link'} to={'/things-to-read'}>Things to Read</NavLink>
+                    <NavLink className={'link'} to={'/something-interesting'}>Something Interesting</NavLink>
                 </div>
             </nav>
             
